@@ -1,0 +1,174 @@
+/* body  */
+body{
+    color: #bfc1c8;
+    background: #1e202b;
+}
+/* navbar */
+a{
+    text-decoration: none;
+    color: white !important;
+}
+ul{
+    list-style: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+.navbar-dark .navbar-toggler-icon {
+    color: white;
+}
+/* header */
+h1{
+    font-weight: 700;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+.logo{
+    width: 64px;
+    aspect-ratio: auto 64 / 38;
+    height: 38px;
+}
+.site-header .branding .site-description {
+    font-size: 10px;
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+.site-header .branding .site-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-size: 1.1428571429em;
+    color: white;
+}
+.nav-item{
+    text-align: center;
+    padding: 20px;
+}
+.nav-link {
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+.nav-link.active,
+.nav-link:hover {
+    border: 2px solid #009ad8 !important;
+    color: #009ad8 !important;
+    border-radius: 30px;
+}
+/* content */
+.hero{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    max-height: 350px;
+} 
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+form input, form textarea, form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.find-location input[type="submit"], .find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background-color: #009ad8;
+    color: white;
+}
+.card{
+    background-color: #323544;
+    color: #bfc1c8;
+    padding: 0%;
+
+}
+.card .card-header{
+        background: rgba(0, 0, 0, 0.1)!important;
+        padding: 10px;
+        text-align: center;
+        font-weight: 400;
+        width: 100%;
+}
+.card2{
+    background-color: #262936;
+}
+.card-body{
+    -webkit-text-size-adjust: 100%;
+color: #bfc1c8;
+font-family: "Roboto", "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.5;
+box-sizing: border-box;
+padding: 50px 20px 10px;
+text-align: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.degree .num {
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+.degree .forecast-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10%;
+}
+.location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.card-header .date{
+    float: right !important;
+}
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+/* footer */
+.site-footer {
+    margin-top: 50px;
+    background: #262936;
+    padding: 50px 0;
+}
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1e202b;
+    font-size: 20px;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.site-footer .social-links a:hover {
+    background: #009ad8;
+    color: white !important;
+}
+.site-footer .social-links a:hover i{
+    color: white !important;
+}
